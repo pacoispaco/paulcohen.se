@@ -1,0 +1,50 @@
+{{ partial "head.html" . }}
+
+  <!-- A single primary page -->
+  <section class="section page">
+    <div class="container">
+
+      <section class="section">
+        <div class="columns">
+          <div class="column is-one-fifth">
+          </div>
+          <div class="column is-three-fifths page-title">
+
+            <a href="{{ .RelPermalink }}"><h1 class="is-size-3">{{ .Title }}</h1></a>
+            <hr>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section page-body">
+        <div class="columns">
+          <div class="column is-one-fifth">
+             <div class="page-date is-size-5">
+
+              {{ .Date.Format (default "2 january 2006" .Site.Params.DateFormat) }}
+
+            </div>
+          </div>
+          <div class="column is-three-fifths">
+            <div class="content page-text is-size-5">
+
+              {{ .Content }}
+
+            </div>
+
+            <hr/>
+            <div class="page-comment">
+              Do you like this, or do you have a comment? Then please <a href="https://twitter.com/share?text=Your+Message+Here&via=pacoispaco">share</a> or <a href="https://twitter.com/share?text=@pacoispaco+Your+Message+Here">reply</a> on Twitter, or <a href="mailto:paul.cohen@seibostudios.se?subject=Re: {{ .Title }} ">email me</a>.
+            </div>
+            <hr/>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </section>
+  <!-- End of single primary page -->
+
+{{ partial "footer.html" . }}

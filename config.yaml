@@ -1,0 +1,29 @@
+baseURL: "http://paulcohen.se/"
+languageCode: "en-us"
+title: "Paul Cohen's web site"
+disableKinds:
+ - "taxonomy"
+ - "taxonomyTerm"
+menus:
+  Main:
+  - identifier: blog
+    name: BLOG
+    pre: fas fa-bullhorn
+    url: blog/
+    weight: 1
+  - identifier: odds-and-ends
+    name: ODDS & ENDS
+    pre: fas fa-newspaper
+    url: odds-and-ends/
+    weight: 2
+  - identifier: about-this-site
+    name: ABOUT THIS SITE
+    pre: fas fa-info-circle
+    url: about-this-site/
+    weight: 3
+params:
+    homeMenuLabel: PAUL COHEN
+    dateFormat: "2 January 2006"
+    primaryBlurbs: 5
+    secondaryBlurbs: 2
+

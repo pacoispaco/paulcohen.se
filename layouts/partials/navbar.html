@@ -1,0 +1,33 @@
+  <!-- The top navigation and menu bar -->
+  <nav id="navbar" class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+
+      <div id="navbar-brand" class="navbar-brand">
+        <a class="navbar-item is-size-5 mr-6" href="{{ .Site.BaseURL }}">
+          {{ .Site.Params.homeMenuLabel }}
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+
+          {{ $baseURL := .Site.BaseURL }}
+          {{ range .Site.Menus.main  }}
+          <a class="navbar-item is-size-6 ml-2 mr-4" href="{{ $baseURL }}{{ .URL }}">
+            <span class="icon">
+              <i class="{{ .Pre }} is-size-7"></i>
+            </span> &nbsp; {{ .Name }}
+          </a>
+          {{ end }}
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- End of top navigation and menu bar -->
+

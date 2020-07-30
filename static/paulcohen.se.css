@@ -1,0 +1,190 @@
+/*
+  This is the CSS file for the styling of paulcohen.se.
+
+  It assumes that you have the following stylesheet links in your HTML files.
+
+  <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+*/
+
+/* ===== Styling of primary blurbs ===== */
+
+#recent-blog-posts-section {
+  padding-bottom: 0px;
+}
+
+.blog-post-blurb {
+  font-family: Alegreya;
+}
+
+.blog-post-title {
+  font-weight: bold;
+  text-align: right;
+  color: blue;
+}
+
+.blog-post-date {
+  font-style: italic;
+  text-align: right;
+}
+
+.blog-post-ingress-read-more {
+  overflow: hidden;
+}
+
+/* ===== Styling of secondary blurbs ===== */
+
+#odds-and-ends-section {
+  padding-bottom: 0px;
+}
+
+.odds-and-ends-blurb {
+  font-family: Alegreya;
+}
+
+.odds-and-ends-title {
+  font-weight: bold;
+  text-align: right;
+  color: blue;
+}
+
+.odds-and-ends-date {
+  font-style: italic;
+  text-align: right;
+}
+
+/* ===== Styling of about me section ===== */
+
+#about-me-section * {
+ font-family: Alegreya;
+ padding-top: 0px;
+}
+
+#about-me-section {
+ padding-bottom: 50px;
+}
+
+#about-title > h2 {
+  font-family: "Alegreya SC";
+}
+
+#about-photo > figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-info {
+  padding-top:25px;
+}
+
+/* ===== Styling of single pages ===== */
+
+.page * {
+  font-family: "Alegreya";
+}
+
+.page-title * {
+  font-weight: bold;
+}
+
+.section.page-body {
+  padding-bottom: 30px;
+}
+
+.page-date {
+  font-style: italic;
+  text-align: right;
+}
+
+.page-text {
+  padding-bottom: 25px;
+}
+
+.page-text h1 {
+  font-size: 1.25em;
+}
+
+.page-text img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.language-python {
+  font-family: "Ubuntu Mono";
+}
+
+.language-python * {
+  font-family: "Ubuntu Mono";
+}
+
+/* ===== Styling of page lists ===== */
+
+.page-list * {
+  font-family: "Alegreya";
+}
+
+.page-list-title h1 {
+  font-weight: bold;
+}
+
+.page-list-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* ===== Styling of Bulma navigation bar ===== */
+
+#navbar {
+  background-color: #3F3250;
+  color: #dbd1e7;
+}
+
+#navbar-brand {
+  margin-left: 13px;
+}
+
+.navbar-menu {
+  background-color: #3F3250;
+}
+
+.navbar-item {
+  font-family: Ubuntu;
+  color: #f8f8f8;
+}
+
+a.navbar-item:hover {
+  color: #dbd1e7;
+  background-color: #3F3250;
+}
+
+a.navbar-burger.burger {
+  color: #dbd1e7;
+}
+
+a.navbar-burger.burger:is-active {
+  color: #dbd1e7;
+}
+
+/* ===== Styling of other Bulma elements ===== */
+
+h2 {
+  font-family: "Alegreya SC";
+  font-weight: bold;
+}
+
+.section {
+  padding-top: 20px;
+  padding-bottom: 2px;
+}
+
+.content {
+  font-family: Ubuntu;
+}
+
+.section {
+  font-family: Ubuntu;
+}
+
+.footer {
+  background-color: #f6f6f6
+}

@@ -1,0 +1,27 @@
+<!--
+  This is the HTML template for primary blurbs. It is used for listing the
+  latest blog posts on the home page.
+-->
+
+  <section class="blog-post-blurb">
+    <div class="columns">
+      <div class="column is-one-third">
+        <div class="blog-post-title is-size-5">
+          <a href="{{ .context.RelPermalink }}">{{ .context.Title }}</a>
+        </div>
+        <div class="blog-post-date is-size-5">
+          {{ .context.Date.Format (default "2 january 2006" .context.Site.Params.DateFormat) }}
+        </div>
+      </div>
+      <div class="column">
+        <div class="blog-post-ingress is-size-5">
+          {{ .context.Summary }}
+          <div class="blog-post-ingress-read-more">
+            <a class="is-pulled-right" href="{{ .context.RelPermalink }}">Read more <i class="fas fa-arrow-right is-size-7"></i></a>
+          </div>
+          <hr/>
+        </div>
+      </div>
+    </div>
+  </section>
+
