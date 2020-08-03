@@ -3,6 +3,7 @@ title: "Sonograms for Birders"
 date: 2020-07-27T12:41:22+02:00
 updated: 2020-07-27T12:41:22+02:00
 draft: true
+toc: true
 ---
 
 Birding is just as much about listening to birds, as it is about looking at
@@ -13,13 +14,14 @@ natural language is difficult, but by creating visual representations of bird
 songs and calls with sonograms, we have a nice tool for both talking about
 and visually analyzing songs and calls.
 
-This article explains what sonograms are and how they can be used bya birders.
+This article explains what sonograms are and how they can be used by birders.
 A sonogram is a visual representation of the spectrum of frequencies of a
 signal as it varies over time. Sonograms are also sometimes called
 spectrograms, which is the more general term, but I'll use the term sonogram,
 since I will be talking about spectrograms for sound. This article intends to
 give birders who are interested in understanding sonograms, an introduction to
-the underlying mathematics, science and technology of sonograms!
+the underlying mathematics, science and technology of sonograms, and a first
+chance to get their hands dirty with creating sonograms!
 
 As part of the journey we will encounter two amazing mathematical truths with
 deep implications for how we can analyze and understand, not only bird songs and
@@ -39,10 +41,51 @@ listening to, or in recording.
 
 Nevertheless, every species has a repertoire of songs and calls that are
 recognizable within the boundaries of variation. Furthermore, when we can look
-at the frequencies by using sonograms of recordings of birds, we can see the
+at the frequencies by using sonograms of recordings of birds, we can _see_ the
 distinctive features of their songs and calls in a way that our ears can't
-easily do.
+always easily _hear_. And when we see those features we can discuss them and
+we can use them mentally to assist us the next time we get a chance to listen
+to that particular bird! And of course, if we do get a recording of a bird
+flying past us that just uttered a few calls on its migratory journey and we
+are unsure about which bird it was, we have a chance of analyzing that call
+afterwards, by looking at the sonogram of the recording!
 
+# A summary of the process from bird song to sonogram
+
+I want to begin with the big picture and present the overall process from bird
+song or call, to a sonogram.
+
+1. **The source**: A bird sings and the song consists of aucustic waves
+   travelling through air to our ears and to a microphone.
+2. **The recording**: The microphone, and a pre-amplifier transforms the
+   aucustic wave to an electrical signal that has the same shape and time
+   properties as the aucustic wave.
+3. **The ADC (analog to digital conversion)**: The analog electrical signal is
+   transformed to a discrete digital signal by a process called sampling. The
+   digital signal is given a representation that can be stored as a digital
+   recording in the form of a data file for subsequent use. E.g. a \*.wav file.
+4. **The DFT (discrete Fourier transform)**: The digital signal is transformed
+   from a function in the time domain to a function in the frequency domain.
+5. **The sonogram plot**: The transformed DFT signal is plotted as a visual
+   representation called a sonogram that shows the frequencies and their power
+   in the digital recording, as they vary over time.
+6. **The analysis**: We can look at the sonogram and correlate it to what we hear
+   and compare it to other bird sonograms created from other recordings.
+
+For step 1 we are at the mercy of birds and serendipity! For steps 2 and 3 we
+need digital recording equpiment. A common smart phone will do, or we can buy
+more expensive equipment. For steps 4 and 5, we need software, and there is both
+costfree, free and open source software, as well as commercial and proprietary
+software, for this today. For step 6 you are needed!
+
+Even though this process and the underlying mathematics and technology is quite
+advanced and may seem a bit daunting at first, all the needed equipment is
+quite cheap and easy to use today, and once you have understood a few important
+aspects of the overall process, you should have no problems att all in becoming
+a capable sonogram ninja, in no time at all!
+
+If you just want to get going at once, jump to the section [Ok, lets get
+started](#ok-lets-get-started).
 # Sound and Analog Electrical Signals
 
 Sound is a vibration that propagates as an acoustic wave, in the form of rapid
@@ -57,7 +100,7 @@ loud sound. If a wave has a regular pattern of compression and decompression
 over time where the distance between successive peaks of compression is
 constant, we say that the wave has a constant **frequency**. A sound consisting
 of only one reasonably stable frequency over time is percieved as a cleaner and
-more pure sound by us and we talk about the **pitch** of the sound. Anyone who
+more pure sound by us and we talk about the pitch of the sound. Anyone who
 has tried singing or playing the violin will know the the difficulty of
 producing a clear sound of a given pitch.
 
@@ -107,6 +150,8 @@ The Nyquist–Shannon sampling theorem is a theorem in the field of digital sign
 # Tools for manipulating recordings and creating sonograms
 
 TBD!
+
+# Ok, lets get started!
 
 # Possiblities in Machine Learning and AI
 
