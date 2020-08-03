@@ -3,6 +3,7 @@ title: "About This Site"
 date: 2020-04-24T16:31:02+02:00
 updated: 2020-04-24T16:31:02+02:00
 draft: false
+toc: true
 ---
 
 # How is this website built?
@@ -40,7 +41,7 @@ handle my HTTPS server certificates with [Let's encrypt](https://letsencrypt.org
 
 I have automated the publishing of the website with
 [github actions](https://github.com/features/actions) and set up my deployment
-pipline so that everytime I push to the master branch of the
+pipeline so that everytime I push to the master branch of the
 [github project](https://github.com/pacoispaco/paulcohen.se) for the website,
 Hugo automatically regenerates the entire website and if that goes well, then
 it is automatically deployed with [scp](https://www.ssh.com/ssh/scp/) to my
