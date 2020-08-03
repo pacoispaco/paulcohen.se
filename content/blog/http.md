@@ -2,7 +2,7 @@
 title: "Some reflections on HTTP"
 date: 2010-06-23T12:14:34+02:00
 updated: 2020-04-23T11:59:34+02:00
-draft: true
+draft: false
 ---
 
 Since I wrote this back in 2010, the heated and confused REST/HTTP vs SOAP debate is over. Today, a REST-ful HTTP/JSON API is firmly established as the best-practice technology for web API:s. Of course, there are many legacy systems that provide API:s implemented with other technologies based on other design principles or simply because it seemed like a good idea at the time.

@@ -2,7 +2,7 @@
 title: "Some Facts and Conclusions About REST and HTTP"
 date: 2011-09-28T11:22:35+02:00
 updated: 2020-04-24T07:51:35+02:00
-draft: true
+draft: false
 ---
 
 Fact 1: HTTP stands for Hypertext **Transfer** Protocol. It does not stand for Hypertext Transport Protocol.

@@ -2,7 +2,7 @@
 title: "Database Psychosis"
 date: 2011-03-19T10:02:58+02:00
 updated: 2020-04-24T07:40:58+02:00
-draft: true
+draft: false
 ---
 
 Most applications have the need to have data persistent between application sessions. Persistence means that data is saved and can be read at a later time, even if the power to the device running the application is turned off in between application restarts. The only way to achieve this is to store data to some sort of file system on a non-volatile storage, usually in the form of a hard disk. This is a fundamental technique of software systems; use the underlying file system, which actually manages the use of the hard disks, to persistently store and read data to and from files.

@@ -2,7 +2,7 @@
 title: "Forcing users to change passwords"
 date: 2010-10-23T11:36:24+02:00
 updated: 2020-04-23T22:48:24+02:00
-draft: true
+draft: false
 ---
 
 This post is the first in a series which I call “The flat earth posts”. In each post I discuss a commonly held truth which is a) untrue, b) hinders progress and c) causes unecessary work.

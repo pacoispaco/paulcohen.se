@@ -2,7 +2,7 @@
 title: "Odds and Ends"
 date: 2020-04-24T16:31:02+02:00
 updated: 2020-04-24T16:31:02+02:00
-draft: true
+draft: false
 ---
 
 Odds and ends consist of various texts and articles I have written over the

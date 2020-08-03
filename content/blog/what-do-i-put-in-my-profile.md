@@ -2,7 +2,7 @@
 title: "What Do I Put in My Profile"
 date: 2011-09-17T12:11:04+02:00
 updated: 2020-04-24T07:43:04+02:00
-draft: true
+draft: false
 ---
 
 No, this is not about updating a Facebook or CV profile. This is about the `.profile` file and its friends like `.bashrc` on \*nix systems.
