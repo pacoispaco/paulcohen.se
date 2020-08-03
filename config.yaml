@@ -26,4 +26,8 @@ params:
     dateFormat: "2 January 2006"
     primaryBlurbs: 5
     secondaryBlurbs: 2
-
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 1

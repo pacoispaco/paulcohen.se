@@ -11,7 +11,7 @@
           <div class="column is-three-fifths page-title">
 
             <a href="{{ .RelPermalink }}"><h1 class="is-size-3">{{ .Title }}</h1></a>
-            <hr>
+            <hr/>
 
           </div>
         </div>
@@ -29,6 +29,13 @@
           <div class="column is-three-fifths">
             <div class="content page-text is-size-5">
 
+              {{ if .Params.Toc }}
+                <h1>Table of Contents</h1>
+                <aside>
+                  {{ .TableOfContents }}
+                </aside>
+                <hr/>
+              {{ end }}
               {{ .Content }}
 
             </div>
