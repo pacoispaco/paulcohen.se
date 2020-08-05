@@ -9,13 +9,22 @@ toc: true
 # How is this website built?
 
 This site is built with [Hugo](https://gohugo.io/), which is a static website
-generator. It takes a number of content files, mostly written in
+generator. It takes a number of content files written in
 [Markdown format](https://www.markdownguide.org/) and a number of HTML
-templating files together with some CSS and other static resouces and, given a
-configuration file, generates a complete static website. That is to say static
-in the sense that it has no server backend generating webpages on the fly.
-However you can use JavaScript with Hugo, to make a website interactive in
-the browser. I try to use as little JavaScript as possible, because it hurts.
+templating files together with some CSS and other static resouces (images), and
+given a configuration file, generates a complete static website. A static website
+is static in the sense that it has no server backend generating webpages on the
+fly. However you can use JavaScript in your Hugo HTML template files to access
+other web resources and web API:s and to make web pages of a website interactive
+in the browser. I try to use as little JavaScript as possible, because it hurts,
+and I'm not very fluent in writing it.
+
+Other CMS and blogging systems, like Wordpress, use a database system to store
+contents and then software to to generate webpages on the fly. Static website
+generators, like Hugo, use no database system, and simply use content files in
+Markdown format, each representing a web page or blog post. This no-database
+approach is something I like, and have written about in my blog post on
+[database psychosis](/blog/database-psychosis/).
 
 For styling I used the neat CSS framwork [Bulma](https://bulma.io/) which I
 primarily wanted to use for its grid system and responsive design capabilities,
@@ -28,7 +37,7 @@ fallen in love with the
 before I saw Greg's website! I use the [Ubuntu](https://design.ubuntu.com/font/)
 typeface for top menu and bottom footer of the website. Both fonts are available
 as Google fonts. If you think the color choices and matchings of the website are
-wierd, its probably because I'm partially color blind. But I like them.
+weird, its probably because I'm partially color blind. But I like them.
 
 All source code for the website is managed in [git](https://git-scm.com/) and I
 push it to this [github project](https://github.com/pacoispaco/paulcohen.se).
@@ -79,9 +88,15 @@ site are:
  * Gaming historical conflicts in the form of physical board games.
  * Human ingenuity, kindness, compassion, stupidity and cruelty throughout history.
 
-In the real world, I have a family with two wonderful kids, have a job and do my bit of socializing. But I don't write about that here.
+In the real world, I have a family with two wonderful kids, have a job and do my
+bit of socializing. But I don't write about that here.
 
 # Some legalese to cover my ass
 
-If you believe any texts, images, sounds, movies or any other sequence of bits and bytes on this site encroach on your intellectual "property" rights in any way, please tell me and provide evidence of your claim. I may then humbly beg your pardon, and permantly move any such virtual property to /dev/null, and after that retire back over that invisible digital property fence that I have crossed, but did not see.
+If you believe any texts, images, sounds, movies or any other sequence of bits
+and bytes on this site encroach on your intellectual "property" rights in any
+way, please tell me and provide evidence of your claim. I may then humbly beg
+your pardon, and permantly move any such virtual property to /dev/null, and
+after that retire back over that invisible digital property fence that I have
+crossed, but did not see.
 
