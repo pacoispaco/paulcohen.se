@@ -1,0 +1,38 @@
+name: Hugo build and deploy 
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build in Hugo container and deploy to paulcohen.se
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2.3.2
+    - uses: jakejarvis/hugo-build-action@v0.74.3
+      with:
+        args: --minify
+    - uses: alinz/ssh-scp-action@v0.1.1
+      env:
+        HELLO: Cool
+        MESSAGE: Hello world
+      with:
+        key: ${{ secrets.KEY }}
+        host: ${{ secrets.HOST }}
+        port: 22 
+        user: ${{ secrets.USER }}
+        # Run these commands on remote host before scp
+        ssh_before: |
+          echo $HELLO
+          echo $MESSAGE
+          ls -lath
+        # Then upload this to remote host with scp
+        scp: |
+          public/* paco@paulcohen.se:/var/www/paulcohen.se
+        # Run these commands on remote host after scp
+        ssh_after: |
+          echo $HELLO
+          echo $MESSAGE
+          ls -lath
