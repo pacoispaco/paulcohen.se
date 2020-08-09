@@ -46,7 +46,8 @@ The generated website is then hosted on a
 [Ubuntu 20.04 server](https://ubuntu.com/server) at
 [DigitalOcean](https://www.digitalocean.com/) in their Amsterdam location. I
 serve the website with the [nginx](https://www.nginx.com/) web server and I
-handle my HTTPS server certificates with [Let's encrypt](https://letsencrypt.org/).
+handle my HTTPS server certificates with [Let's encrypt](https://letsencrypt.org/)
+that are automatically renewed every three months.
 
 I have automated the publishing of the website with
 [github actions](https://github.com/features/actions) and set up my deployment
