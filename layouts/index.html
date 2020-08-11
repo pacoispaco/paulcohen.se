@@ -1,53 +1,51 @@
 {{ partial "head.html" . }}
 
-  <!-- Main page with irecent blog posts and odds & ends -->
-  <section class="section">
-    <div class="container">
-      <div class="columns">
+  <!-- Main page with recent blog posts and odds & ends -->
+  <div class="container">
+    <div class="columns">
 
-        <!-- Recent blog posts -->
-        <div class="column is-two-thirds">
-          <section id="recent-blog-posts-section" class="section">
-            <h2 class="is-size-5">Recent blog posts</h2>
-            <hr/>
-          </section>
-          <section class="section">
+      <!-- Recent blog posts -->
+      <div class="column is-two-thirds">
+        <section id="recent-blog-posts-section" class="section">
+          <h2 class="is-size-5">Recent blog posts</h2>
+          <hr/>
+        </section>
+        <section class="section">
 
-            {{ $n := .Site.Params.PrimaryBlurbs }}
-            {{ range first $n ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
-              {{ partial "primary-blurb.html" (dict "context" .) }}
-            {{ end }}
+          {{ $n := .Site.Params.PrimaryBlurbs }}
+          {{ range first $n ((where .Site.RegularPages.ByDate "Section" "blog").Reverse) }}
+            {{ partial "primary-blurb.html" (dict "context" .) }}
+          {{ end }}
 
-          </section>
-          <section class="section">
-            <h2 class="is-size-5 has-text-right"><a href="/blog/">More posts <i class="fas fa-arrow-right is-size-7"></i></a><h2>
-          </section>
-        </div>
-        <!-- End of recent blog posts -->
-
-        <!-- Recent odds and ends -->
-        <div class="column">
-          <section class="section">
-            <h2 class="is-size-5">New and updated odds &amp; ends</h2>
-            <hr>
-          </section>
-          <section class="section">
-
-            {{ $n := .Site.Params.SecondaryBlurbs }}
-            {{ range first $n ((where .Site.RegularPages.ByDate "Section" "odds-and-ends").Reverse) }}
-              {{ partial "secondary-blurb.html" (dict "context" .) }}
-            {{ end }}
-
-          </section>
-          <section class="section">
-            <h2 class="is-size-5 has-text-right"><a href="/odds-and-ends/">More odds &amp; ends <i class="fas fa-arrow-right is-size-7"></i></a><h2>
-          </section>
-        </div>
-        <!-- Recent odds and ends -->
-
+        </section>
+        <section class="section">
+          <h2 class="is-size-5 has-text-right"><a href="/blog/">More posts <i class="fas fa-arrow-right is-size-7"></i></a><h2>
+        </section>
       </div>
+      <!-- End of recent blog posts -->
+
+      <!-- Recent odds and ends -->
+      <div class="column">
+        <section class="section">
+          <h2 class="is-size-5">New and updated odds &amp; ends</h2>
+          <hr>
+        </section>
+        <section class="section">
+
+          {{ $n := .Site.Params.SecondaryBlurbs }}
+          {{ range first $n ((where .Site.RegularPages.ByDate "Section" "odds-and-ends").Reverse) }}
+            {{ partial "secondary-blurb.html" (dict "context" .) }}
+          {{ end }}
+
+        </section>
+        <section class="section">
+          <h2 class="is-size-5 has-text-right"><a href="/odds-and-ends/">More odds &amp; ends <i class="fas fa-arrow-right is-size-7"></i></a><h2>
+        </section>
+      </div>
+      <!-- Recent odds and ends -->
+
     </div>
-  </section>
+  </div>
   <!-- End of main page with recent blog posts and odds & ends -->
 
   {{ partial "about-me.html" . }}
