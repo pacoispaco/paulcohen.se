@@ -7,37 +7,53 @@ toc: true
 ---
 
 Birding is just as much about listening to birds, as it is about looking at
-birds. And just as visually describing birds is important for being able to
-visually recognize and identify birds, audial descriptions are important for
-being able to audially recognize and identify birds. Describing sounds with
-natural language is difficult, but by creating visual representations of bird
-songs and calls with sonograms, we have a nice tool for both talking about
-and visually analyzing songs and calls.
+birds. And just as being able to describe how birds look is valuable for
+learning how to identify birds visually, being able to describe how birds sound
+is valuable for learning how to identify birds by song or call.
 
-This article explains what sonograms are and how they can be used by birders.
-A sonogram is a visual representation of the spectrum of frequencies of a
-signal as it varies over time. Sonograms are also sometimes called
-spectrograms, which is the more general term, but I'll use the term sonogram,
-since I will be talking about spectrograms for sound. This article intends to
-give birders who are interested in understanding sonograms, an introduction to
-the underlying mathematics, science and technology of sonograms, and a first
-chance to get their hands dirty with creating sonograms!
+Describing sounds with natural language is difficult, but by creating visual
+representations of bird songs and calls with sonograms, we get something we can
+see and talk about, and which can help us analyze songs and calls.
 
-As part of the journey we will encounter two amazing mathematical truths with
-deep implications for how we can analyze and understand, not only bird songs and
-calls, but all signals of all kinds in the entire universe!
+This article intends to give birders who are interested in understanding
+sonograms, an overview of the underlying mathematics, science and technology
+of sonograms. As part of the journey we will encounter two amazing mathematical
+truths with deep implications for how we can analyze and understand, not only
+bird songs and calls, but all signals of all kinds in the entire universe!
+
+A sonogram [^1] is a visual representation of the spectrum of frequencies of a
+signal as it varies over time.
+
+[^1]: Sonograms are also sometimes called spectrograms, which is the more general
+term, but I'll use the term sonogram, since I will be talking about spectrograms
+for sound.
+
+Ok, here we want to put a sidenote {{< sidenote-gvdb "1">}} This is so interesting it goes into a sidenote. {{< /sidenote-gvdb >}} that is really really interesting.
+
+Ok, here we want to put a marginnote {{< marginnote-gvdb "1">}} This is so interesting it goes into a marginnote. {{< /marginnote-gvdb >}} that is really really interesting.
+
+Ok, here we want to put a sidenote {{< sidenote-gvdb "2">}} This is even more interesting so it also goes into a sidenote. {{< /sidenote-gvdb >}} that is really really interesting.
 
 # The challenge of listening to and recording birds
 
-We know that bird songs and calls seldom are pure in the sense of clean stable
-and well defined sounds and notes. They are complex and usually consist of many
-different frequencies, rapidly changing frequencies and as well as rapid changes
-in loudness. Birds have the physiological equivalent of two larynxes, which they
-can control independently of each other and produce very complex sounds with.
+Bird songs and calls are seldome pure in the sense of clean, stable and well
+defined sounds and notes. They are complex and consist of many different
+frequencies, rapidly changing frequencies as well as rapid changes in loudness.
+Birds have the physiological equivalent of two larynxes, which they can control
+independently of each other and thus produce very complex sounds with.
 
 To make it even more difficult for us as listeners, we usually have many other
 sounds competing with the particular individual bird we're interested in
-listening to, or in recording.
+listening to, or in recording. Also, we don't always see the bird singing or
+making calls, and in some cases in can be quite difficult to exactly pinpoint
+the direction from where the song or call is coming from.
+
+{{< youtube id="f4BwbAIRag0" autoplay="false" >}}
+
+Occasionally we are lucky in not only seeing a bird, but also in hearing it
+sing, or make calls, at the same time. Like the Nightingale thrush, _Luscinia
+luscinia_, above, which I encountered in the Royal Djurgården park in Stockholm
+(_May 19 2020_).
 
 Nevertheless, every species has a repertoire of songs and calls that are
 recognizable within the boundaries of variation. Furthermore, when we can look

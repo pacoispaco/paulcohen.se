@@ -5,12 +5,19 @@
 
   <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
 */
+i
+/* ===== Styling of links ===== */
+
+section > a:hover {
+  text-decoration: underline;
+}
+
+a:focus, a:hover {
+  text-decoration: underline;
+  color: #3273dc;
+}
 
 /* ===== Styling of primary blurbs ===== */
-
-#recent-blog-posts-section {
-  padding-bottom: 0px;
-}
 
 .blog-post-blurb {
   font-family: Alegreya;
@@ -19,7 +26,6 @@
 .blog-post-title {
   font-weight: bold;
   text-align: right;
-  color: blue;
 }
 
 .blog-post-date {
@@ -33,10 +39,6 @@
 
 /* ===== Styling of secondary blurbs ===== */
 
-#odds-and-ends-section {
-  padding-bottom: 0px;
-}
-
 .odds-and-ends-blurb {
   font-family: Alegreya;
 }
@@ -44,7 +46,6 @@
 .odds-and-ends-title {
   font-weight: bold;
   text-align: right;
-  color: blue;
 }
 
 .odds-and-ends-date {
@@ -72,10 +73,6 @@
   margin-right: auto;
 }
 
-#contact-info {
-  padding-top:25px;
-}
-
 /* ===== Styling of single pages ===== */
 
 .page * {
@@ -86,17 +83,9 @@
   font-weight: bold;
 }
 
-.section.page-body {
-  padding-bottom: 30px;
-}
-
 .page-date {
   font-style: italic;
   text-align: right;
-}
-
-.page-text {
-  padding-bottom: 25px;
 }
 
 .page-text h1 {
@@ -149,12 +138,21 @@
 
 .navbar-item {
   font-family: Ubuntu;
-  color: #f8f8f8;
+  color: #c8c8c8;
+}
+
+.navbar-item .icon:only-child {
+  margin-right: 1px;
 }
 
 a.navbar-item:hover {
-  color: #dbd1e7;
+/*  color: #dbd1e7;*/
+  color: #c8c8c8;
   background-color: #3F3250;
+}
+
+a.navbar-item:active {
+  color: #0404ff;
 }
 
 a.navbar-burger.burger {
@@ -163,6 +161,18 @@ a.navbar-burger.burger {
 
 a.navbar-burger.burger:is-active {
   color: #dbd1e7;
+}
+
+/* ===== Styling of Bulma footer ===== */
+
+.footer {
+  background-color: #3F3250;
+  color: #dbd1e7;
+  padding: 20px;
+}
+
+.footer a {
+  color: #98b9ed;
 }
 
 /* ===== Styling of other Bulma elements ===== */
@@ -183,8 +193,4 @@ h2 {
 
 .section {
   font-family: Ubuntu;
-}
-
-.footer {
-  background-color: #f6f6f6
 }
