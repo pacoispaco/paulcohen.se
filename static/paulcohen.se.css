@@ -5,7 +5,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
 */
-i
+
 /* ===== Styling of links ===== */
 
 section > a:hover {
@@ -77,6 +77,23 @@ a:focus, a:hover {
 
 .page * {
   font-family: "Alegreya";
+}
+
+.page code {
+  font-family: Monospace;
+  font-size: 15px;
+}
+
+.page code span {
+  font-family: Monospace;
+  font-size: 15px;
+}
+
+.page pre {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .page-title * {
