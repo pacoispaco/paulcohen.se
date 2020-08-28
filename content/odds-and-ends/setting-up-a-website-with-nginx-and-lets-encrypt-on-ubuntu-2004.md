@@ -75,7 +75,7 @@ $ sudo mkdir /var/www/example.org
 
 Then change the owner of that directory to yourself and give your self `rwx` rights, and the group owner of that directory to `www-data` and give that group `r-x` rights:
 ```bash
-$ sudo chown paco:www-data example.org/
+$ sudo chown username:www-data example.org/
 $ chmod 750 example.org/
 ```
 
@@ -87,9 +87,9 @@ Add a simple `/var/www/example.org/index.html` with the following contents:
 <head>
   <meta charset="utf-8">
 
-  <title>Paul Cohen</title>
-  <meta name="description" content="Paul Cohen's website">
-  <meta name="author" content="Paul Cohen">
+  <title>Example site</title>
+  <meta name="description" content="An example website">
+  <meta name="author" content="Foo bar">
 
 </head>
 
