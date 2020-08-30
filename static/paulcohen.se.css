@@ -61,7 +61,7 @@ a:focus, a:hover {
 }
 
 #about-me-section {
- padding-bottom: 50px;
+ padding-bottom: 30px;
 }
 
 #about-title > h2 {
@@ -71,6 +71,23 @@ a:focus, a:hover {
 #about-photo > figure {
   margin-left: auto;
   margin-right: auto;
+}
+
+#contact-info {
+  margin-top: 10px
+}
+
+.contact-handle a {
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+/* ===== Make sure the contact handles are block elements for smaller displays ===== */
+
+@media screen and (max-width: 600px) {
+  .contact-handle {
+    display: block;
+  }
 }
 
 /* ===== Styling of single pages ===== */
@@ -211,3 +228,5 @@ h2 {
 .section {
   font-family: Ubuntu;
 }
+
+
