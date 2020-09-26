@@ -2,7 +2,7 @@
 title: "Recording Birds With a Camera or Mobile Phone"
 date: 2020-09-25T12:54:51+02:00
 updated: 2020-09-22T12:54:51+02:00
-draft: false 
+draft: false
 ---
 
 This year I decided to start recording birds more seriously. My decision was driven
@@ -19,9 +19,8 @@ sonograms {{< sidenote-gvdb "1">}} A spectrogram is a visual representation of t
 spectrum of frequencies of a signal as it varies with time. When applied to an audio
 signal, especially when talking of bird songs and calls, spectrograms are called sonograms. {{< /sidenote-gvdb >}}, are.
 But I still found it a bit of a challenge to decide on what recording equipment to
-use and what software to use for manipulating and analyzing
-the recordings. I made some notes on the way and intend to tidy the notes up into
-a couple of blog posts.
+use and what software to use for manipulating and analyzing the recordings. I made
+some notes on the way and intend to tidy the notes up into a couple of blog posts.
 
 In this first post, I will describe some of my experiences with recording birds
 with my camera and also my mobile phone using a small affordable microphone.
@@ -63,7 +62,7 @@ equipment that was light, yet decent enough to warrant an investment!
 
 # Recording with your mobile phone
 
-Event though the camera of my OnePlus 3T mobile phone is quite good, the built
+Even though the camera of my OnePlus 3T mobile phone is quite good, the built
 in microphone is really poor. So my first step in buying dedicated recording
 equipment was to look for a small decent microphone that I could use with my mobile.
 Hopefully something at least as good as the microphone in my camera. That would
@@ -84,10 +83,10 @@ microphones and a powering module will easily set you back around 500 Euros (or
 I then found the [Røde VideoMic Me](https://www.rode.com/microphones/videomicme),
 a small directional microphone that works fine with both Android and iPhone mobile
 phones and just costs 50-60 Euros (500-600 SEK). However, you need to check if
-you want the model with a TRRS connector (the Me model) or a TRS connector
-(the Me-L model). Most iPhones today do not have a TRRS jack! See my mobile
-phone with the Røde VideoMic Me, with the TRRS connecter, and the windjammer
-that comes a long with it.
+you want the model with a 3.5 mm TRRS Universal connector (the Me model) or a 3.5
+TRS Lightning connector (the Me-L model). Most iPhones today only have a 3.5 TRS
+Lightning input jack. iBelow you can see my mobile phone with the Røde VideoMic
+Me, with the TRRS connecter, and the windjammer that comes a long with it.
 
 {{< figure src="/blog/rode-videomic-me-1.jpg" >}}
 
