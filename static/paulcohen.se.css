@@ -229,4 +229,10 @@ h2 {
   font-family: Ubuntu;
 }
 
+/* ===== Styling of Xeno-Canto shortcode ===== */
 
+.xeno-canto > iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
