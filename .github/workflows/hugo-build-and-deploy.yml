@@ -11,7 +11,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2.3.2
-    - uses: jakejarvis/hugo-build-action@v0.75.1
+    #- uses: jakejarvis/hugo-build-action@v0.75.1
+    - uses: pacoispaco/hugo-build-action
       with:
         args: --minify
     - uses: alinz/ssh-scp-action@v0.1.1
