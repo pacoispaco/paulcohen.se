@@ -85,7 +85,7 @@ a small directional microphone that works fine with both Android and iPhone mobi
 phones and just costs 50-60 Euros (500-600 SEK). However, you need to check if
 you want the model with a 3.5 mm TRRS Universal connector (the Me model) or a 3.5
 TRS Lightning connector (the Me-L model). Most iPhones today only have a 3.5 TRS
-Lightning input jack. iBelow you can see my mobile phone with the Røde VideoMic
+Lightning input jack. Below you can see my mobile phone with the Røde VideoMic
 Me, with the TRRS connecter, and the windjammer that comes a long with it.
 
 {{< figure src="/blog/rode-videomic-me-1.jpg" >}}
