@@ -31,7 +31,7 @@ To begin with, the best sound recording equipment is the recorder you bring alon
 Every birder I know has a smartphone. Use it! If you hear a weird warbler subsong
 from inside a bush in early september, but you can't spot the bird, just record
 it! Also, most birders today have a digital camera capable of recording video.
- You can use that to record sound, even if you don't catch the bird on video!
+You can use that to record sound, even if you don't catch the bird on video.
 Below are two video recordings made with my [Sony RX10 IV](https://www.sony.com/electronics/cyber-shot-compact-cameras/dsc-rx10m4)
 camera, using the built-in microphone.
 
@@ -55,9 +55,9 @@ sound recording setup. All modern cameras have an audio input jack, where you ca
 plug in an external microphone, but that will mean more equipment to carry!
 
 I often have a spotting scope and tripod, handheld binoculars and a camera with
-me when I'm out. Adding sound recording equipment to that would really be pushing the
-limits, both as too the pure weight, but also to the experience of being out in
-the field and just enjoying nature. So I really was looking for some recording
+me when I'm out. Adding sound recording equipment to that would really be pushing
+the limits, both as too the pure weight, but also to the experience of being out
+in the field and just enjoying nature. So I was really looking for some recording
 equipment that was light, yet decent enough to warrant an investment!
 
 # Recording with your mobile phone
@@ -66,19 +66,18 @@ Even though the camera of my OnePlus 3T mobile phone is quite good, the built
 in microphone is really poor. So my first step in buying dedicated recording
 equipment was to look for a small decent microphone that I could use with my mobile.
 Hopefully something at least as good as the microphone in my camera. That would
-mean I cound go out birding with just my binoculars and my mobile phone and a
+mean, I cound go out birding with just my binoculars and my mobile phone and a
 small microphone.
 
 After googling and reading a number of posts on sound birding I quickly realized that
 the [Sennheiser ME66](https://sv-se.sennheiser.com/directional-microphone-shotgun-film-broadcast-me-66) and
 [Sennheiser ME67](https://sv-se.sennheiser.com/highly-directional-microphone-long-gun-me-67)
 are the most commonly recommended shotgun microphones. However they both require
-a powering module like the [Sennheiser
-K6](https://sv-se.sennheiser.com/modular-microphone-system-k-6) to work, and
-they are more suited to dedicated high quality recording in the field. I was
-more interested in a small, light weight and affordable option. The Senneheiser
-microphones and a powering module will easily set you back around 500 Euros (or
-5.000 SEK).
+a powering module like the [Sennheiser K6](https://sv-se.sennheiser.com/modular-microphone-system-k-6)
+to work, and they are more suited to dedicated high quality recording in the
+field. I was more interested in a small, light weight and affordable option.
+The Senneheiser microphones and a powering module will easily set you back around
+500 Euros (or 5.000 SEK).
 
 I then found the [Røde VideoMic Me](https://www.rode.com/microphones/videomicme),
 a small directional microphone that works fine with both Android and iPhone mobile
@@ -92,7 +91,7 @@ Me, with the TRRS connecter, and the windjammer that comes a long with it.
 
 The nice thing with this setup is that it is light and easy to bring along in the
 field and you can record videos with your phone, while using the microphone to
-improve the sound recording. Below you can see the miccophone attached.
+improve the sound recording. Below you can see the microphone attached.
 
 {{< figure src="/blog/rode-videomic-me-2.jpg" >}}
 
@@ -102,7 +101,7 @@ And with the windjammer.
 
 This was a decent upgrade over the built in microphone in my mobile, and seems
 to be roughly as good as the microphone in my camera. Listen to the two recordings
-below, made with my OnePlus 3T mobile phone and a Røde VideoMic Me microphone.
+below made with my OnePlus 3T mobile phone and a Røde VideoMic Me microphone.
 
 {{< youtube nZu-QbkAS0o >}}
 
@@ -116,11 +115,11 @@ in Nacka, just outside Stockholm, Sweden, May 31 2020.
 
 One drawback of using the Røde microphone with a mobile phones, is that it is a
 bit cumbersome to have the microphone plugged in to the mobile phone and the
-phone in my pocket ready to be able to quickly record something. Also the mobile
+phone in my pocket, ready to be able to quickly record something. Also the mobile
 touch screen interface requires a number of steps in order to start a recording.
-I also need to unlock the screen, select the camera or the sound recording app
+I need to unlock the screen, select the camera app or the sound recording app
 installed and then start it. Also, sticking the phone in a pocket with the wind
-jammer on the microphone isticking out, makes me look like I'm walking around with
+jammer on the microphone sticking out, makes me look like I'm walking around with
 a baby raccoon in my pocket.
 
 A possible next step up could be to invest in one of the Sennheiser microphones
@@ -130,17 +129,17 @@ setup, such as those from [Telinga](https://www.telinga.com/products/), but I am
 not ready yet for that.
 
 However, before considering more expensive and/or parabolic microphones, I should
-say a few words about recording devices. By recording device I mean a device
+say a few words about recording devices. By recording device, I mean a device
 capable of taking an analog electrical signal from a microphone, converting it to
 a digital signal and storing it on a persistent memory device, such as an SD
-memory card. I eventually ended up buying a separate recording device with built in microphones,
-but which also can be used with a Sennheiser shotgun microphone or a parabolic
-microphone, should I decide to invest in one of those. I will discuss recording
-devices in a separate post.
+memory card. I eventually ended up buying a separate recording device with built
+in microphones that also can be used with a Sennheiser shotgun microphone or a
+parabolic microphone, should I decide to invest in one of those. I will discuss
+recording devices in a separate post.
 
 Note that you can easily extract and analyze the sound track from your recorded
 videos. I use [Audacity](https://www.audacityteam.org/) which is a nice, free
-open source and cross-platform audio software program for editing and analyzing
+and open source and cross-platform audio software program for editing and analyzing
 sound. I will also describe how I use Audacity in a separate post.
 
 I extracted a 14-second part of the sound recording of the crossbills in the video
