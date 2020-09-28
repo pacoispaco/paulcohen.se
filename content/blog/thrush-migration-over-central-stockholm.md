@@ -8,21 +8,22 @@ draft: false
 As part of my decision to try to record birds this year, I also decided to try
 start recording migrating birds over my apartment in central Stockholm. Yeah, I
 know I should have better things to do, but this is fun. Bear with me! This
-summer I bough a small [Sony PCM A10](https://www.sony.co.uk/electronics/voice-recorders/pcm-a10)
+summer I bought a small [Sony PCM A10](https://www.sony.co.uk/electronics/voice-recorders/pcm-a10)
 recorder, which I think is an excellent lightweight recorder, to have with me
 in the field. In mid July I stared to leave it outside my window over the night,
 recording for the entire night. I have been doing it regularly every 2 to 4
 nights, since then.
 
-The practice of listening to and recording night migration of birds is called
-_nocmig_, and that act of doing it can be called _nocmigging_. It sounds a bit
-suspect and nothing you would want talk about with your friends, with police
-officers around. But Nocmigging is not only fun and legal, it is also an
-excellent way to sharpen your skills in identifying bird calls and enjoing the
-magic of bird migration.
+The cult of listening to and recording night migration of birds is called
+_nocmig_, which is short for _nocturnal migration_ and that act of doing it
+can be called _nocmigging_. It sounds a bit suspect and nothing you would want
+talk about with your friends, with police officers around. But Nocmigging is not
+only fun and legal, it is also an excellent way to sharpen your skills in
+identifying bird calls and enjoing the magic of bird migration.
 
-The day after a nightly recording, I import the recordings into [Audacity](https://www.audacityteam.org/)
-and then browse through the recording looking at the sonogram. It takes about
+The day after a nightly recording, I import the recording into the sound
+editing program [Audacity](https://www.audacityteam.org/) and then browse
+through the recording looking at the sonogram. It takes about
 half an hour to an hour to browse through an eight hour recording. When I
 see an interesting pattern in the sonogram, I listen to what is recorded and
 try to identify the sound that produced the sonogram pattern. In the beginning I listened to cars, human voices, squeeky
