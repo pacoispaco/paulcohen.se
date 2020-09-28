@@ -45,8 +45,8 @@ peninsular, where they spend the winter.
 _Fringilla montifringilla_, recorded at 06:28 on September 28, 2020. It probably
 took a rest on our roof top, on its migratory voyage south!
 
-As summer turned into autumn some of the summer birds disappeared, but in August,
-migrating White Wagtails (Sädesärla), _Motacilla alba_, Meadow pipits
+As summer turned into autumn some of the summer birds disappeared, but in late 
+August, migrating White Wagtails (Sädesärla), _Motacilla alba_, Meadow pipits
 (Ängspiplärka), _Anthus pratensis_ and the odd Tree pipit (Trädpiplärka), _Anthus
 trivialis_ started to feature in my nocmig recordings. Then in mid September the
 recordings turned eerily silent for a week or so. Just the odd White wagtail and
@@ -71,7 +71,9 @@ of our apartment building in central Stockholm. Recorded at 06:28 on September
 To give an example of the impressive night migration over my apartment on
 September 28, here is the logfile for that night. I make a note of every migrating
 bird that I identify in the recording, but for non-migrating birds, I just make
-a note of the first bird I hear. Calls I don't recognize, I call _Strangies_!
+a note of the first bird I hear. Calls I don't recognize, I call _Strangies_ and
+I usually add a short note on the strangie, in case I want to go back to it and
+try to figure it out.
 
 ```
 Equipment: Sony PCM-A10
