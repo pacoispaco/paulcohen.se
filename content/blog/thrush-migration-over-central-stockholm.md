@@ -10,7 +10,7 @@ start recording migrating birds over my apartment in central Stockholm. Yeah, I
 know I should have better things to do, but this is fun. Bear with me! This
 summer I bought a small [Sony PCM A10](https://www.sony.co.uk/electronics/voice-recorders/pcm-a10)
 recorder, which I think is an excellent lightweight recorder, to have with me
-in the field. In mid July I stared to leave it outside my window over the night,
+in the field. In mid July I started to leave it outside my window over the night,
 recording for the entire night. I have been doing it regularly every 2 to 4
 nights, since then.
 
