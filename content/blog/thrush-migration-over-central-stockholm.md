@@ -1,41 +1,43 @@
 ---
-title: "Nocmig and Thrush Migration Over Central Stockholm"
+title: "Nocmig recording and Thrush Migration Over Central Stockholm"
 date: 2020-09-28T23:36:10+02:00
 updated: 2020-09-28T23:36:10+02:00
 draft: false
 ---
 
-As part of my decision to try to record birds this year, I also decided to try
+As part of my decision to start to record birds this year, I also decided to try
 start recording migrating birds over my apartment in central Stockholm. Yeah, I
 know I should have better things to do, but this is fun. Bear with me! This
 summer I bought a small [Sony PCM A10](https://www.sony.co.uk/electronics/voice-recorders/pcm-a10)
 recorder, which I think is an excellent lightweight recorder, to have with me
 in the field. In mid July I started to leave it outside my window over the night,
-recording for the entire night. I have been doing it regularly every 2 to 4
-nights, since then.
+recording for the entire night. I have been doing it regularly since then every 2
+to 4 nights.
 
 The cult of listening to and recording night migration of birds is called
-_nocmig_, which is short for _nocturnal migration_ and that act of doing it
+_nocmig_, which is short for _nocturnal migration_ and the act of doing it
 can be called _nocmigging_. It sounds a bit suspect and nothing you would want
-talk about with your friends, with police officers around. But Nocmigging is not
-only fun and legal, it is also an excellent way to sharpen your skills in
+talk about with your friends, with police officers around. But Nocmigging is
+not only fun and legal, it is also an excellent way to sharpen your skills in
 identifying bird calls and enjoing the magic of bird migration.
 
 The day after a nightly recording, I import the recording into the sound
-editing program [Audacity](https://www.audacityteam.org/) and then browse
-through the recording looking at the sonogram. It takes about
-half an hour to an hour to browse through an eight hour recording. When I
-see an interesting pattern in the sonogram, I listen to what is recorded and
-try to identify the sound that produced the sonogram pattern. In the beginning I listened to cars, human voices, squeeky
-doors and bikes as well as the odd drunkard or boisterous gang of urban hipsters.
-But quite quickly, I got good at visually sorting out the normal urban noises
-from bird calls in the sonogram patterns. And just as quickly I started to be good at recognizing the
-sonogram signatures of common birds like blackbirds (Koltrast), _Turdus merula_,
-Swifts (Tornseglare), _Apus apus_ and Blue tits (Blåmes), _Cyanistes caeruleus_.
-Then I started noticing - or hearing - other patterns, such as the time in the
-morning when different species started to get active, but also, as the weeks
-passed by, that some species started disappearing in the recordings, like the
-Swifts in late August. And the Baltic Lesser black-backed gulls (Silltrut),
+editing program [Audacity](https://www.audacityteam.org/), and then visually
+browse through it, looking at one thirty-second window of the sonogram at a
+time. It takes about half an hour to an hour to browse through an eight hour
+recording. When I see an interesting pattern in the sonogram, I listen to what
+is recorded and try to identify the sound that produced the sonogram pattern.
+
+In the beginning I listened a lot to cars, human voices, squeeky doors and bikes
+as well as the odd drunkard or boisterous gang of urban hipsters. But quite
+quickly, I got good at visually sorting out the normal urban noises from bird
+calls in the sonogram patterns. And just as quickly I started to be good at
+recognizing the sonogram signatures of common birds like Blackbirds (Koltrast),
+_Turdus merula_, Swifts (Tornseglare), _Apus apus_ and Blue tits (Blåmes),
+_Cyanistes caeruleus_. Then I started noticing other patterns, such as the time
+in the morning when different species start getting active, but also, as the
+weeks passed by, that some species started disappearing from the recordings,
+like Swifts in late August. And Baltic Lesser black-backed gulls (Silltrut),
 _Larus fuscus_, that start migrating south in late September to the Arabian
 peninsular, where they spend the winter.
 
@@ -45,14 +47,14 @@ peninsular, where they spend the winter.
 _Fringilla montifringilla_, recorded at 06:28 on September 28, 2020. It probably
 took a rest on our roof top, on its migratory voyage south!
 
-As summer turned into autumn some of the summer birds disappeared, but in late 
-August, migrating White Wagtails (Sädesärla), _Motacilla alba_, Meadow pipits
+As summer turned into autumn some of the summer birds disappeared, but in late
+August, migrating White wagtails (Sädesärla), _Motacilla alba_, Meadow pipits
 (Ängspiplärka), _Anthus pratensis_ and the odd Tree pipit (Trädpiplärka), _Anthus
 trivialis_ started to feature in my nocmig recordings. Then in mid September the
 recordings turned eerily silent for a week or so. Just the odd White wagtail and
 confused Siskin (Grönsiska), _Anthus trivialis_, where recorded. That was until
 the night of September 28, when suddenly the flood gates of migrating Redwings
-(Redwing), _Turdus iliacus_, and Song thrush (Song thrush), _Turdus
+(Redwing), _Turdus iliacus_, and Song thrushes (Song thrush), _Turdus
 philomelos_, where opened, and I recorded my first migrating Brambling! Oh, the
 simple joys of life!
 
@@ -151,7 +153,7 @@ Log:
 02:58 Strangie (1 high pitched call) & Song thrush
 03:00 Strangie (like 00:57)
 03:01 Redwing
-03:03 Song thrush 2 Redwing
+03:03 Song thrush & 2 Redwing
 03:08 Song thrush
 03:11 Song thrush
 03:17 Redwing & Song thrush
