@@ -5,7 +5,7 @@ updated: 2020-09-28T23:36:10+02:00
 draft: false
 ---
 
-As part of my decision to start to record birds this year, I also decided to try
+As part of my decision to start recording birds this year, I also decided to try
 start recording migrating birds over my apartment in central Stockholm. Yeah, I
 know I should have better things to do, but this is fun. Bear with me! This
 summer I bought a small [Sony PCM A10](https://www.sony.co.uk/electronics/voice-recorders/pcm-a10)
