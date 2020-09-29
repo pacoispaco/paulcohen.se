@@ -14,6 +14,11 @@ in the field. In mid July I started to leave it outside my window over the night
 recording for the entire night. I have been doing it regularly since then every 2
 to 4 nights.
 
+{{< figure src="/blog/apartment-window-2020-09-29.jpg" >}}
+
+**Figure 1**. The view from my study room window, outside of which I have placed
+my recorder.
+
 The cult of listening to and recording night migration of birds is called
 _nocmig_, which is short for _nocturnal migration_ and the act of doing it
 can be called _nocmigging_. It sounds a bit suspect and nothing you would want
@@ -43,7 +48,7 @@ peninsular, where they spend the winter.
 
 {{< figure src="/blog/bergfink-06-28-sonogram.png" >}}
 
-**Figure 1**. The sonogram, as produced in Audacity, of a Brambling (Bergfink),
+**Figure 2**. The sonogram, as produced in Audacity, of a Brambling (Bergfink),
 _Fringilla montifringilla_, recorded at 06:28 on September 28, 2020. It probably
 took a rest on our roof top, on its migratory voyage south!
 
