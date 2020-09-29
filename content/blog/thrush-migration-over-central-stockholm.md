@@ -16,7 +16,7 @@ to 4 nights.
 
 {{< figure src="/blog/apartment-window-2020-09-29.jpg" >}}
 
-**Figure 1**. The view from my study room window, outside of which I have placed
+**Figure 1**. The view from my study room window, outside of which I place
 my recorder.
 
 The cult of listening to and recording night migration of birds is called
