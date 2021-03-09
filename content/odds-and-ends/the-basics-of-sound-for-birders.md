@@ -2,7 +2,7 @@
 title: "The Basics of Sound Recording for Birders"
 date: 2021-03-09T17:58:00+01:00
 updated: 2021-03-09T17:58:00+01:00
-draft: false 
+draft: false
 toc: true
 ---
 
@@ -317,7 +317,7 @@ and the length of the recording \\(t_r\\). This is relevant when we want to
 estimate how much storage space we will need for our recordings. We define
 a Byte as 8 bits {{< sidenote-gvdb "3">}}
 A Byte is a unit of digital information that most commonly consists of eight
-bits. It has historically been used to denote groups of bits, of various sizes,
+bits. It has historically been used to denote sequences of bits, of various sizes,
 which make sense in a particular computing environment and hardware. There is
 no formal standard for how many bits a Byte represents. However today, in the
 context of consumer computers and the Internet, a Byte is 8 bits.
