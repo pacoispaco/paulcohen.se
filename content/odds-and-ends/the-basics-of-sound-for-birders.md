@@ -223,7 +223,7 @@ memory to represent. So mimizing the quantizing error does come at a cost. Note
 that the quantizing error only has to do with the accuracy of the signal
 amplitude but not the signal frequency.
 
-![Quantization and quantization error (noise)](/Quantization_error.png "Sampling and quantizing with quantization error (noise). Image from Wikimedia.")
+![Quantization and quantization error (noise)](/quantization_error.png "Sampling and quantizing with quantization error (noise). Image from Wikimedia.")
 
 Finally, each quantized amplitude value is digitally **encoded** with a number
 of bits. In our example every encoding would be encoded with 24 bits.
