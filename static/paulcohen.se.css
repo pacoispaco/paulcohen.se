@@ -17,6 +17,11 @@ a:focus, a:hover {
   color: #3273dc;
 }
 
+/* ===== Styling of audio player ===== */
+audio {
+  width: 100%;
+}
+
 /* ===== Styling of primary blurbs ===== */
 
 .blog-post-blurb {
@@ -126,6 +131,10 @@ a:focus, a:hover {
   font-size: 1.25em;
 }
 
+.page-text h2 {
+  font-size: 1.05em;
+}
+
 .page-text img {
   margin-left: auto;
   margin-right: auto;
@@ -227,6 +236,12 @@ h2 {
 
 .section {
   font-family: Ubuntu;
+}
+
+/* ===== Styling of Katex generated stuff ===== */
+
+span.katex {
+  font: normal 1.0em KaTeX_Main, Times New Roman, serif;
 }
 
 /* ===== Styling of Xeno-Canto shortcode ===== */
