@@ -10,7 +10,7 @@ phone]({{< ref "/blog/recording-birds-with-a-camera-or-mobile" >}}), I
 described how you can make quite decent recordings just using your camera or
 mobile phone. In this post I will discuss how I decided on buying a [Sony PCM A10](https://www.sony.co.uk/electronics/voice-recorders/pcm-a10)
 recorder. You can read more about the technical details of digital recording in
-my longer article [The Basics of Sound Recording for Birders]({{< ref "odds-and-ends/the-basics-of-sound-for-birders" >}})
+my longer article [The Basics of Sound Recording for Birders]({{< ref "odds-and-ends/the-basics-of-sound-for-birders" >}}).
 
 Going into the equipment jungle of sound birding is a challenge! What kind of
 microphone do I need? What kind of recorder? What about those shotgun microphones
