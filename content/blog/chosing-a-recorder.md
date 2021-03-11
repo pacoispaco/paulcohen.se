@@ -63,7 +63,7 @@ some very brief notes.
 | Sony SX2000 | ? | - | For dictation more than field recording |
 | Sony PCM D100 | Handheld: 153x51x26mm, 0.394kg (wo bat?) | 6899 kr (Thomann) | Looks like the recorder to have, but too expensive. |
 
-Many recorders are use by musicians and as dictaphones by journalists, so bear
+Many recorders are used by musicians and as dictaphones by journalists, so bear
 in mind that their reviews are based on other needs, than those of a birder.
 
 Here are a few links that discuss and review recording equipment:
