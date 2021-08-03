@@ -1,7 +1,7 @@
 ---
 title: "Recording Birds With a Camera or Mobile Phone"
-date: 2020-09-25T12:54:51+02:00
-updated: 2020-09-22T12:54:51+02:00
+date: 2020-09-22T12:54:51+02:00
+updated: 2020-09-25T12:54:51+02:00
 draft: false
 ---
 
