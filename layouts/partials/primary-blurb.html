@@ -10,7 +10,17 @@
           <a href="{{ .context.RelPermalink }}">{{ .context.Title }}</a>
         </div>
         <div class="blog-post-date is-size-5">
-          {{ .context.Date.Format (default "2 january 2006" .context.Site.Params.DateFormat) }}
+          {{ $date := .context.Date.Format (default "1 January 2006" .context.Site.Params.DateFormat) }}
+          {{ $date }}
+
+          {{ with .context.Params.updated }}
+            {{ $updated := . | dateFormat "2 January 2006" }}
+            </br>
+            {{ if eq $date $updated }}
+            {{ else }}
+              Updated: {{ $updated }}
+            {{ end }}
+          {{end}}
         </div>
       </div>
       <div class="column">
