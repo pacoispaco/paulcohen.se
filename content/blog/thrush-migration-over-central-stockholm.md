@@ -2,6 +2,9 @@
 title: "Nocmig recording and Thrush Migration Over Central Stockholm"
 date: 2020-09-28T23:36:10+02:00
 updated: 2020-09-28T23:36:10+02:00
+tags:
+ - birds
+ - earbirding
 draft: false
 ---
 
