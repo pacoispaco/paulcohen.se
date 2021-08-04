@@ -1,0 +1,44 @@
+{{ partial "head.html" . }}
+
+  <!-- A tag page listing all articles with a specific tag -->
+    <article class="container page">
+
+      <section class="section">
+        <div class="columns">
+          <div class="column is-one-fifth">
+          </div>
+          <div class="column is-three-fifths page-title">
+
+            <a href="{{ .RelPermalink }}"><h1 class="is-size-3">All Posts and Articles tagged with <span class="page-tag is-size-4">{{ .Title }}</span></h1></a>
+
+            <hr/>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section term-body">
+        <div class="columns">
+          <div class="column is-one-fifth">
+             <div class="page-date is-size-5">
+
+            </div>
+          </div>
+          <div class="column is-three-fifths">
+            <div class="content term-text is-size-5">
+
+              {{ range .Site.RegularPages.RelatedTo (keyVals "tags" .Title)}}
+                {{ partial "primary-blurb.html" (dict "context" .) }}
+              {{ end }}
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </article>
+
+  <!-- End of tag page -->
+
+{{ partial "footer.html" . }}

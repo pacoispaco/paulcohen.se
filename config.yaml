@@ -1,9 +1,8 @@
 baseURL: "http://paulcohen.se/"
 languageCode: "en-us"
 title: "Paul Cohen's web site"
-disableKinds:
- - "taxonomy"
- - "taxonomyTerm"
+taxonomies:
+  tag: tags
 menus:
   Main:
   - identifier: blog

@@ -7,8 +7,6 @@ draft: true
 
 This where I was today.
 
-{{< instagram CDPDfLpA2k0 >}}
-
 I found cloudberries and scared up a female black grouse!
 
 And then when I got home, I wrote some Python!

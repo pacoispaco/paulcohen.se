@@ -10,9 +10,9 @@
           <a href="{{ .context.RelPermalink }}">{{ .context.Title }}</a>
         </div>
         <div class="blog-post-date is-size-5">
+
           {{ $date := .context.Date.Format (default "1 January 2006" .context.Site.Params.DateFormat) }}
           {{ $date }}
-
           {{ with .context.Params.updated }}
             {{ $updated := . | dateFormat "2 January 2006" }}
             </br>
@@ -21,6 +21,13 @@
               Updated: {{ $updated }}
             {{ end }}
           {{end}}
+
+          <div class="page-tags">
+          {{ range (.context.GetTerms "tags") }}
+             <span class="page-tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></span>
+           {{ end }}
+          </div>
+
         </div>
       </div>
       <div class="column">

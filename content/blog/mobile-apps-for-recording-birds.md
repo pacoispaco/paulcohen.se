@@ -1,6 +1,9 @@
 ---
 title: "Mobile Apps for Recording Birds"
 date: 2020-04-21T14:51:11+02:00
+tags:
+ - birds
+ - earbirding
 draft: true
 ---
 

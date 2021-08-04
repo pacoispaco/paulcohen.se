@@ -41,7 +41,17 @@
         <section class="section">
           <h2 class="is-size-5 has-text-right"><a href="/odds-and-ends/">More odds &amp; ends <i class="fas fa-arrow-right is-size-7"></i></a><h2>
         </section>
-      </div>
+
+        <section class="section">
+          <br>
+          <h2 class="is-size-5">Blog and Article Tags</h2>
+          <hr>
+        </section>
+ 
+        {{ partial "tag-cloud.html" (dict "context" .) }}
+        </br>
+
+     </div>
       <!-- Recent odds and ends -->
 
     </div>

@@ -2,6 +2,9 @@
 title: "Sonograms for Birders"
 date: 2020-07-27T12:41:22+02:00
 updated: 2020-07-27T12:41:22+02:00
+tags:
+ - birds
+ - earbirding
 draft: true
 toc: true
 ---
@@ -71,15 +74,24 @@ afterwards, by looking at the sonogram of the recording!
 I want to begin with the big picture and present the overall process from bird
 song or call, to a sonogram.
 
-1. **The source**: A bird sings and the song consists of aucustic waves
-   travelling through air to our ears and to a microphone.
-2. **The recording**: The microphone, and a pre-amplifier transforms the
-   aucustic wave to an electrical signal that has the same shape and time
-   properties as the aucustic wave.
+1. **The source**: A bird sings, calls or chirps and the sound, consisting of
+   aucustic waves travelling through the air, reaches a microphone.
+2. **The recording**: The microphone transforms the aucustic wave to an
+   electrical signal that has approximately the same wave shape as the
+   aucustic wave. The better the microphone is, the better the approximation is.
+   The electrical signal is also feed through a pre-amplifier that amplifies
+   the electrical signal so it is stronger and better suited for manipulation in
+   the following steps. A good preamplifier should amplify the original sound
+   signal with miminal distortion and and also keep circuit noise to a minimum.
 3. **The ADC (analog to digital conversion)**: The analog electrical signal is
-   transformed to a discrete digital signal by a process called sampling. The
-   digital signal is given a representation that can be stored as a digital
-   recording in the form of a data file for subsequent use. E.g. a \*.wav file.
+   transformed into a discrete digital signal by a process called sampling.
+   There are two aspects of the signal that are digitised. First of all the
+   signal is sampled at distinct and evenly spaced points in time, decided by the
+   chosen sampling frequency. Secondly, the sampled signal strength is quantized
+   to discrete values of equal spacing, where the spacing is decided by the
+   chosen resolution in bits and the peak signal strength. The digital signal
+   is given a representation that can be stored as a digital recording in the
+   form of a data file, e.g. a \*.wav file.
 4. **The DFT (discrete Fourier transform)**: The digital signal is transformed
    from a function in the time domain to a function in the frequency domain.
 5. **The sonogram plot**: The transformed DFT signal is plotted as a visual

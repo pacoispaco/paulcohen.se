@@ -2,6 +2,9 @@
 title: "Recording Birds With a Camera or Mobile Phone"
 date: 2020-09-22T12:54:51+02:00
 updated: 2020-09-25T12:54:51+02:00
+tags:
+ - birds
+ - earbirding
 draft: false
 ---
 

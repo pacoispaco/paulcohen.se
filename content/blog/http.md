@@ -2,6 +2,9 @@
 title: "Some reflections on HTTP"
 date: 2010-06-23T12:14:34+02:00
 updated: 2020-04-23T11:59:34+02:00
+tags:
+ - software-development
+ - web-development
 draft: false
 ---
 

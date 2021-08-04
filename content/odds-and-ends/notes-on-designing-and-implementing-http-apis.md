@@ -3,7 +3,12 @@ title: "Some Notes on Designing and Implementing REST-ful HTTP API:s"
 date: 2016-03-26T13:43:02+02:00
 updated: 2016-03-26T13:43:02+02:00
 draft: true
-toc: true
+tags:
+ - software-development
+ - web-development
+ - api
+ - digital
+doc: true
 ---
 
 This document contains some notes on designing and implementing REST-ful HTTP API:s. I started

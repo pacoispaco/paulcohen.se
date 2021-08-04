@@ -10,6 +10,7 @@
           <div class="column is-three-fifths page-title">
 
             <a href="{{ .RelPermalink }}"><h1 class="is-size-3">{{ .Title }}</h1></a>
+
             <hr/>
 
           </div>
@@ -22,9 +23,7 @@
              <div class="page-date is-size-5">
 
               {{ $date := .Date.Format (default "1 January 2006" .Site.Params.DateFormat) }}
-
               {{ $date }}
-
               {{ with .Params.updated }}
                 {{ $updated := . | dateFormat "2 January 2006" }}
                 </br>
@@ -33,6 +32,12 @@
                   Updated: {{ $updated }}
                 {{ end }}
               {{end}}
+              
+              <div class="page-tags">
+              {{ range (.GetTerms "tags") }}
+                <span class="page-tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></span>
+              {{ end }}
+              </div>
 
             </div>
           </div>

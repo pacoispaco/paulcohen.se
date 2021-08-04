@@ -2,6 +2,9 @@
 title: "Chosing a recorder for sound birding - the Sony PCM A10"
 date: 2021-03-10T19:37:12+01:00
 updated: 2021-03-10T19:37:12+01:00
+tags:
+ - birds
+ - earbirding
 draft: false
 ---
 

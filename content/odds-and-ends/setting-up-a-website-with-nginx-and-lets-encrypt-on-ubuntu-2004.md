@@ -3,7 +3,12 @@ title: "Setting Up a Website With Nginx and Let's Encrypt on Ubuntu 20.04"
 date: 2020-08-25T22:15:13+02:00
 updated: 2020-08-25T22:15:13+02:00
 draft: false
-toc: true
+tags:
+ - linux
+ - sysadmin
+ - digital
+ - web-development
+tsoc: true
 ---
 
 # Introduction

@@ -10,7 +10,24 @@
           <a href="{{ .context.RelPermalink }}">{{ .context.Title }}</a>
         </div>
         <div class="odds-and-ends-date is-size-6">
-          {{ .context.Date.Format (default "2 january 2006" .context.Site.Params.DateFormat) }}
+
+          {{ $date := .context.Date.Format (default "1 January 2006" .context.Site.Params.DateFormat) }}
+          {{ $date }}
+          {{ with .context.Params.updated }}
+            {{ $updated := . | dateFormat "2 January 2006" }}
+            </br>
+            {{ if eq $date $updated }}
+            {{ else }}
+              Updated: {{ $updated }}
+            {{ end }}
+          {{end}}
+
+          <div class="page-tags">
+          {{ range (.context.GetTerms "tags") }}
+             <span class="page-tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></span>
+           {{ end }}
+          </div>
+
         </div>
       </div>
       <div class="column">

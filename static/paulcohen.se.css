@@ -149,6 +149,26 @@ audio {
   font-family: "Ubuntu Mono";
 }
 
+.page-tags {
+}
+
+.page-tag {
+  background-color: #e3e3e3; /* #c8c8c8 */
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  margin-top: 10px;
+  margin-left: 3px;
+  display:inline-block;
+  border-radius: 3px;
+}
+
+.page-tag a {
+  font-family: ubuntu;
+  font-style: normal;
+  font-size: small;
+}
+
 /* ===== Styling of page lists ===== */
 
 .page-list * {
@@ -162,6 +182,22 @@ audio {
 .page-list-body {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+/* ===== Styling of Taxonomy list and Term pages ===== */
+
+.taxonomy-text {
+  padding-bottom: 50px;
+}
+
+.term-text {
+  padding-bottom: 50px;
+}
+
+.page-title .page-tag {
+  font-family: ubuntu;
+  font-style: normal;
+  font-weight: normal;
 }
 
 /* ===== Styling of Bulma navigation bar ===== */

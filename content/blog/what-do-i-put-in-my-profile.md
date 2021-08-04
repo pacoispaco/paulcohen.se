@@ -2,6 +2,9 @@
 title: "What Do I Put in My Profile"
 date: 2011-09-17T12:11:04+02:00
 updated: 2020-04-24T07:43:04+02:00
+tags:
+ - linux
+ - sysadmin
 draft: false
 ---
 

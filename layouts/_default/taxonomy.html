@@ -1,0 +1,43 @@
+{{ partial "head.html" . }}
+
+  <!-- A taxonomy page listing all tags -->
+    <article class="container page">
+
+      <section class="section">
+        <div class="columns">
+          <div class="column is-one-fifth">
+          </div>
+          <div class="column is-three-fifths page-title">
+
+            <a href="{{ .RelPermalink }}"><h1 class="is-size-3">All Post and Article {{ .Title }}</h1></a>
+
+            <hr/>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section taxonomy-body">
+        <div class="columns">
+          <div class="column is-one-fifth">
+             <div class="page-date is-size-5">
+
+            </div>
+          </div>
+          <div class="column is-three-fifths">
+            <div class="content taxonomy-text is-size-5">
+
+              {{ partial "tag-cloud.html" (dict "context" .) }}
+              </br>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </article>
+
+  <!-- End of taxonomy page -->
+
+{{ partial "footer.html" . }}

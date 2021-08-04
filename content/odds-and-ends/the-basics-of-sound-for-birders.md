@@ -2,6 +2,9 @@
 title: "The Basics of Sound Recording for Birders"
 date: 2021-03-09T17:58:00+01:00
 updated: 2021-03-09T17:58:00+01:00
+tags:
+ - birds
+ - earbirding
 draft: false
 toc: true
 ---

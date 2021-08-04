@@ -2,6 +2,8 @@
 title: "Some quotes on programming"
 date: 2011-02-03T10:39:35+02:00
 updated: 2020-04-23T22:52:35+02:00
+tags:
+ - software.development
 draft: true
 ---
 
