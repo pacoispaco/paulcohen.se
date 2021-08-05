@@ -16,18 +16,18 @@ Many organizations force their users to change their passwords every 3 months or
 
 In fact, forcing users to change passwords on a regular schedule degrades security and causes dissatisfaction in your organization. Here are some of the effects of this policy:
 
-* Users start writing down passwords (bad for security).
-* Users loose time and get locked out of accounts (bad for productivity).
+* Users start writing down passwords on paper (bad for security).
+* Users forget passwords and get locked out of accounts (bad for productivity).
 * Users get irritated (bad in itself and bad for motivation).
 * Users contact the IT support help desk to recover accounts they’ve been locked out from (increased help desk work).
 
-The only time it is appropriate to force users to change their passwords is when you know or think their accounts have been compromised.
+The only time it is appropriate to force users to change their passwords is when you know or think their accounts have been compromised. Good security policies do not only focus on security, but take into consideration the full business situation and the impact on all involved people. In most settings there is a business that needs to run as smothely as possible, that has impact on both revenue, customer satisfaction, worker motivation and the ability to provide services.
 
 I wrote this original post back in 2010. In 2017 NIST (the U.S. National Institute of Standards and Technology) at last updated their [publication on Digital Identity Guidelines](https://pages.nist.gov/800-63-3/sp800-63b.html) to recommend _**against forcing users to periodically change their passwords**_.
 
 > Verifiers SHOULD NOT require memorized secrets to be changed arbitrarily (e.g., periodically). However, verifiers SHALL force a change if there is evidence of compromise of the authenticator.
 
-Since I wrote this post in 2010, two-factor authentication has become much more common in many applications and business settings, which solves many of the other drawbacks with password based authentication. Furthermore there now exist good password managers, for keeping track of your passwords, which reduce the need for writing down your passwords. Yes, thats what normal people end up doing, and even more so when they are forced to change their password. Today I use [KeepassX](https://www.keepassx.org) on my Linux machine and [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) on my Android phone and tablet, to keep track of passwords and various PIN codes.
+Since I wrote this post in 2010, two-factor authentication has become much more common in many applications and business settings. Two-factor authentication handles some of the security risks associated with password based authentication, and is usually not implemented with requirements on users to regularily change their PIN-codes. Furthermore there now exist good password managers, for keeping track of your passwords, which improves the security of managing written passwords. Yes, normal people do write down their passwords, even more so when they are regularily forced to change their passwords. But also because most people have many passwords, PIN-codes and secrets to keep track of. For handling my secrets, I use [KeepassX](https://www.keepassx.org) on my Linux machine and [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android) on my Android phone and tablet, to keep track of passwords and various PIN-codes.
 
 References:
 
