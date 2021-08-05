@@ -4,6 +4,7 @@ date: 2011-03-19T10:02:58+02:00
 updated: 2020-04-24T07:40:58+02:00
 tags:
  - software-dev
+ - digital
 draft: false
 ---
 
