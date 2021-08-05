@@ -24,7 +24,7 @@
 
           <div class="page-tags">
           {{ range (.context.GetTerms "tags") }}
-             <span class="page-tag"><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></span>
+             <span class="page-tag"><a href="{{ .Permalink }}" class="is-size-6">{{ .LinkTitle }}</a></span>
            {{ end }}
           </div>
 

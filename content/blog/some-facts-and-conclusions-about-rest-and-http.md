@@ -3,8 +3,8 @@ title: "Some Facts and Conclusions About REST and HTTP"
 date: 2011-09-28T11:22:35+02:00
 updated: 2020-04-24T07:51:35+02:00
 tags:
- - software-development
- - web-development
+ - software-dev
+ - web-dev
 draft: false
 ---
 

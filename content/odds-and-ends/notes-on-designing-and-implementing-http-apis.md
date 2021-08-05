@@ -4,8 +4,8 @@ date: 2016-03-26T13:43:02+02:00
 updated: 2016-03-26T13:43:02+02:00
 draft: true
 tags:
- - software-development
- - web-development
+ - software-dev
+ - web-dev
  - api
  - digital
 doc: true

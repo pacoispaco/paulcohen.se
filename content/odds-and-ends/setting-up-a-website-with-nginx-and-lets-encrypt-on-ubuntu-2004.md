@@ -7,7 +7,7 @@ tags:
  - linux
  - sysadmin
  - digital
- - web-development
+ - web-dev
 tsoc: true
 ---
 
