@@ -3,7 +3,7 @@
           {{range $name, $taxonomy := .context.Site.Taxonomies.tags}} {{ $count := .Count }}
             {{ with $.context.Site.GetPage (printf "/tags/%s" $name) }}
               <div class="page-tag">
-                <a href={{ .RelPermalink }} title="All posts and articles with the tag '{{$name}}'" class="is-size-6">{{$name}} ({{ $count }})</a>
+                <a href={{ .RelPermalink }} title="All posts and articles with the tag '{{$name}}'" class="is-size-7">{{$name}} ({{ $count }})</a>
               </div>
             {{end}}
           {{end}}
