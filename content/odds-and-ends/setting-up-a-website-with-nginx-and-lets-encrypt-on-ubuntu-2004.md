@@ -20,7 +20,7 @@ The article is based on notes from when I set up this website on a [Digital Ocea
 * [How To Install Nginx on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
 * [How To Secure Nginx with Let's Encrypt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04)
 
-# Enable UFW firewall and enale the OpenSSH UFW profile
+# Enable UFW firewall and enable the OpenSSH UFW profile
 
 This is recommended by Digital Ocean on Ubuntu server 20.04. It will ensure that only connections to certain services on the server are allowed. UFW is disabled by default. Before you enable it make sure to allow OpenSSH!
 ```bash
