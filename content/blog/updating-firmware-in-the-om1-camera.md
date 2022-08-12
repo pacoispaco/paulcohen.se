@@ -8,9 +8,7 @@ tags:
  - photography
 ---
 
-I bought the excellent [OM System's OM-1
-camera](https://www.olympus-europa.com/site/en/c/cameras/om_d_system_cameras/om_d/om_1/index.html) in may 2022. Since then there have been two firmware updates for the camera. There have been a few reports of people failing to update the firmware, resulting in a camera that won't even start, and which needs to be fixed by OM Systems support. So I was a bit apprehensive of doing it, but it went fine for me. This blog article describes how I did my firmware update, and should also be of interest to those OM1 owners who only use Linux.
-
+I bought the excellent [OM System's OM-1 camera](https://www.olympus-europa.com/site/en/c/cameras/om_d_system_cameras/om_d/om_1/index.html) in may 2022. Since then there have been two firmware updates for the camera. There have been a few reports of people failing to update the firmware, resulting in a camera that won't even start, and which needs to be fixed by OM System's support. So I was a bit apprehensive of doing it, but it went fine for me. This blog article describes how I did my firmware update, and should also be of interest to those OM-1 owners who only use Linux.
 {{< figure src="/blog/updating-firmware-in-the-om1-camera/pauls-om1.jpg" >}}
 
 To update the firmware you have to use the [**Om Workspace**](https://support.olympus-imaging.com/owdownload/) program from OM Systems and then connect the camera to your computer, and then perform the update from within that program. Unfortunately **OM Workspace** only works on Mac and Windows, so I had to borrow my son's Windows gaming PC for this.
