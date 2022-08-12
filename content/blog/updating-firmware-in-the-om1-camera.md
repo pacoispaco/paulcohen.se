@@ -8,7 +8,7 @@ tags:
  - photography
 ---
 
-I bought the excellent [OM Systems OM-1
+I bought the excellent [OM System's OM-1
 camera](https://www.olympus-europa.com/site/en/c/cameras/om_d_system_cameras/om_d/om_1/index.html) in may 2022. Since then there have been two firmware updates for the camera. There have been a few reports of people failing to update the firmware, resulting in a camera that won't even start, and which needs to be fixed by OM Systems support. So I was a bit apprehensive of doing it, but it went fine for me. This blog article describes how I did my firmware update, and should also be of interest to those OM1 owners who only use Linux.
 
 {{< figure src="/blog/updating-firmware-in-the-om1-camera/pauls-om1.jpg" >}}
@@ -29,7 +29,7 @@ Main improvements in firmware version 1.1:
 
 ## My steps
 
-My starting point was [this instruction page from OM systems](https://learnandsupport.getolympus.com/updating-your-digital-camera-or-lens). In the video on that page he mentions that you need to first do the first update, then the second. When I updated I was only presented with the ability to do the second update directly, and that worked fine for me.
+My starting point was [this instruction page from OM system](https://learnandsupport.getolympus.com/updating-your-digital-camera-or-lens). In the video on that page he mentions that you need to first do the first update, then the second. When I updated I was only presented with the ability to do the second update directly, and that worked fine for me.
 
 I did my upgrade on a Windows 11 Pro machine. Although I'm describing how I did it, I'm writing the steps in imperative mode.
 
