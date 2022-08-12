@@ -2,7 +2,7 @@
 title: "Updating firmware in the OM1 camera"
 date: 2022-08-12T14:09:58+02:00
 updated: 2022-08-12T14:09:58+02:00
-draft: true
+draft: false
 ---
 
 I bought the excellent [OM Systems OM1
