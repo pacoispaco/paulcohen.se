@@ -15,7 +15,7 @@ To update the firmware you have to use the [**Om Workspace**](https://support.ol
 
 ## Changes in the firmware updates
 
-The release notes for the two firmware upgrades can be found on [OM Systems download page for OM‑1](://www.olympus-europa.com/site/en/c/cameras_support/downloads/om_1_downloads.html).
+The release notes for the two firmware updates can be found on [OM Systems download page for OM‑1](://www.olympus-europa.com/site/en/c/cameras_support/downloads/om_1_downloads.html).
 
 Main improvements in firmware version 1.2:
 * Performance of C-AF when shooting still images has been improved.
@@ -29,7 +29,7 @@ Main improvements in firmware version 1.1:
 
 My starting point was [this instruction page from OM system](https://learnandsupport.getolympus.com/updating-your-digital-camera-or-lens). In the video on that page he mentions that you need to first do the first update, then the second. When I updated I was only presented with the ability to do the second update directly, and that worked fine for me.
 
-I did my upgrade on a Windows 11 Pro machine. Although I'm describing how I did it, I'm writing the steps in imperative mode.
+I did my update on a Windows 11 Pro machine. Although I'm describing how I did it, I'm writing the steps in imperative mode.
 
 1. Install [**OM Workspace**](https://support.olympus-imaging.com/owdownload) and make sure you have the latest version installed.
 2. Make sure your user account has administrator priviledges, otherwise you will not be able to update the firmware.
