@@ -60,7 +60,7 @@ August, migrating White wagtails (Sädesärla), _Motacilla alba_, Meadow pipits
 (Ängspiplärka), _Anthus pratensis_ and the odd Tree pipit (Trädpiplärka), _Anthus
 trivialis_ started to feature in my nocmig recordings. Then in mid September the
 recordings turned eerily silent for a week or so. Just the odd White wagtail and
-confused Siskin (Grönsiska), _Anthus trivialis_, where recorded. That was until
+confused Siskin (Grönsiska), _Spinus spinus_, where recorded. That was until
 the night of September 28, when suddenly the flood gates of migrating Redwings
 (Redwing), _Turdus iliacus_, and Song thrushes (Song thrush), _Turdus
 philomelos_, where opened, and I recorded my first migrating Brambling! Oh, the
