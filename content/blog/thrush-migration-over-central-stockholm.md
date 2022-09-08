@@ -47,7 +47,7 @@ in the morning when different species start getting active, but also, as the
 weeks passed by, that some species started disappearing from the recordings,
 like Swifts in late August. And Baltic Lesser black-backed gulls (Silltrut),
 _Larus fuscus_, that start migrating south in late September to the Arabian
-peninsular, where they spend the winter.
+peninsular and east Africa, where they spend the winter.
 
 {{< figure src="/blog/bergfink-06-28-sonogram.png" >}}
 
